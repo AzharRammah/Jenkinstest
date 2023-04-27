@@ -78,7 +78,7 @@
     - name: Copiar Certificado
       copy:
         src: ./wildcard.demohiberus.com.crt
-        src: ./wildcad.demohiberus.com.key
+        src: ./wildcard.demohiberus.com.key
         dest: /etc/nginx/ssl
 
     - name: Copiar wordpress conf
